@@ -394,6 +394,10 @@
     [
       "6f535255-ed60-41d2-8d01-904a20bd474b",
       "Payload"
+    ],
+    [
+      "0bacdde8-5c42-4a95-81d1-244432e46a08",
+      "Recovery Only"
     ]
   ],
   "text_variables": {}

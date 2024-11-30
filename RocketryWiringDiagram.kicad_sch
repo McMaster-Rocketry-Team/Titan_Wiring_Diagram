@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 29.21 99.06)
+		(size 36.83 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bacdde8-5c42-4a95-81d1-244432e46a08")
+		(property "Sheetname" "Recovery Only"
+			(at 29.21 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "recovery_only.kicad_sch"
+			(at 29.21 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RocketryWiringDiagram"
+				(path "/395837be-e671-47e6-8fb9-877478f5d46e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 82.55 36.83)
 		(size 36.83 46.99)
 		(fields_autoplaced yes)
