@@ -160,7 +160,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 257.81) (xy 191.77 257.81)
+			(xy 287.02 257.81) (xy 191.77 257.81)
 		)
 		(stroke
 			(width 0)
@@ -171,7 +171,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 245.11) (xy 288.29 257.81)
+			(xy 287.02 245.11) (xy 287.02 257.81)
 		)
 		(stroke
 			(width 0)
@@ -298,66 +298,6 @@
 		(uuid "f5c72788-20bd-402f-9502-ce63bea64393")
 	)
 	(rectangle
-		(start 245.618 313.69)
-		(end 330.708 350.52)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0a9133e0-14ef-4179-9a68-6f30cd07ae0f)
-	)
-	(rectangle
-		(start 153.67 267.97)
-		(end 231.14 298.45)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1e3b4b34-1952-4995-b88f-04bde96fabd8)
-	)
-	(rectangle
-		(start 231.902 149.86)
-		(end 344.932 182.118)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5362c52d-3038-46fa-bc20-2618b8af6220)
-	)
-	(rectangle
-		(start 85.344 101.854)
-		(end 179.324 132.08)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 63d70b76-efdb-4640-8e6e-d714770a8e43)
-	)
-	(rectangle
-		(start 231.902 101.346)
-		(end 344.932 134.62)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9512ec53-ca2f-4da4-91ea-e4183d510221)
-	)
-	(rectangle
 		(start 40.64 228.6)
 		(end 40.64 228.6)
 		(stroke
@@ -369,96 +309,88 @@
 		)
 		(uuid 99fa9f5f-8c8e-49d1-9613-a06f21ec60be)
 	)
-	(rectangle
-		(start 144.78 44.45)
-		(end 213.36 78.74)
+	(text_box "3x Cameras"
+		(exclude_from_sim no)
+		(at 85.09 101.6 0)
+		(size 93.98 30.48)
 		(stroke
-			(width 0.508)
+			(width 1)
 			(type default)
 		)
 		(fill
 			(type none)
 		)
-		(uuid afcb50e7-b2de-410c-9909-ba08407e9a07)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left top)
+		)
+		(uuid "04200d97-5197-45c0-97b6-5687b9597b00")
 	)
-	(rectangle
-		(start 368.3 271.78)
-		(end 459.74 303.53)
+	(text_box "RGX Sensors"
+		(exclude_from_sim no)
+		(at 144.78 45.72 0)
+		(size 68.58 34.29)
 		(stroke
-			(width 0.508)
+			(width 1)
 			(type default)
 		)
 		(fill
 			(type none)
 		)
-		(uuid b995f3dc-268a-419e-bce6-1c9fb673ba34)
-	)
-	(rectangle
-		(start 40.64 39.37)
-		(end 552.45 307.34)
-		(stroke
-			(width 0.508)
-			(type dash)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left top)
 		)
-		(fill
-			(type none)
-		)
-		(uuid cbb2ab1a-93d8-48b5-88fb-6e259108ea27)
+		(uuid "1db4eb80-0c2e-41fc-bc0f-5995c3920f4d")
 	)
-	(rectangle
-		(start 231.394 199.644)
-		(end 344.424 245.364)
+	(text_box "EPS 1"
+		(exclude_from_sim no)
+		(at 153.67 267.97 0)
+		(size 77.47 30.48)
 		(stroke
-			(width 0.508)
+			(width 1)
 			(type default)
 		)
 		(fill
 			(type none)
 		)
-		(uuid e7cfd347-11bc-4d39-87a6-e361060897ed)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left top)
+		)
+		(uuid "34fb5759-00ba-4dde-9eba-4dc353deaa67")
 	)
-	(rectangle
-		(start 318.77 46.99)
-		(end 388.62 78.74)
+	(text_box "Avionics"
+		(exclude_from_sim no)
+		(at 247.65 367.03 0)
+		(size 85.09 34.29)
 		(stroke
-			(width 0.508)
+			(width 1)
 			(type default)
 		)
 		(fill
 			(type none)
 		)
-		(uuid f2aeaaa8-10fc-4d6a-9828-945c15aaba1c)
-	)
-	(rectangle
-		(start 386.842 102.616)
-		(end 521.462 135.382)
-		(stroke
-			(width 0.508)
-			(type default)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left top)
 		)
-		(fill
-			(type none)
-		)
-		(uuid fc2f221c-0d06-4e03-8dcd-568d85479a4b)
-	)
-	(rectangle
-		(start 247.65 367.03)
-		(end 332.74 401.32)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fecd57a3-578a-4503-a4fd-fab9c02a5f7a)
+		(uuid "458dc529-d288-44e8-8753-877bbc2e6749")
 	)
 	(text_box "Recovery Beacon"
 		(exclude_from_sim no)
-		(at 129.54 193.04 0)
+		(at 248.92 198.12 0)
 		(size 76.2 46.99)
 		(stroke
-			(width 0.0254)
+			(width 1)
 			(type default)
 		)
 		(fill
@@ -467,131 +399,144 @@
 		(effects
 			(font
 				(face "Barlow")
-				(size 0.1016 0.1016)
+				(size 4 4)
 			)
 			(justify left top)
 		)
 		(uuid "616bec3d-c67f-4492-845f-20940616a62a")
 	)
-	(text "EPS 1"
+	(text_box "Payload Bay"
 		(exclude_from_sim no)
-		(at 157.988 270.002 0)
+		(at 31.75 41.91 0)
+		(size 511.81 266.7)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 4 4)
 			)
+			(justify left top)
 		)
-		(uuid "049c75da-25b3-4fae-8bc0-666db0562067")
+		(uuid "64a69288-a487-45d2-8373-50d5a1fde085")
 	)
-	(text "3x Cameras"
+	(text_box "Antenna"
 		(exclude_from_sim no)
-		(at 92.71 104.14 0)
+		(at 387.35 101.6 0)
+		(size 134.62 33.02)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 4 4)
 			)
+			(justify left top)
 		)
-		(uuid "08924c92-b0d1-4790-a96f-b5e33a86d687")
+		(uuid "7ff788b0-0dfe-4d5d-92e3-618bde116b40")
 	)
-	(text "RGX Data PCB"
+	(text_box "EPS 2"
 		(exclude_from_sim no)
-		(at 328.93 50.8 0)
+		(at 368.3 271.78 0)
+		(size 91.44 31.75)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 4 4)
 			)
+			(justify left top)
 		)
-		(uuid "1f782e3d-7cc1-4727-bead-b63fcedefa43")
+		(uuid "8d50d01d-5898-46f0-8773-d1475475eced")
 	)
-	(text "Recovery Beacon"
+	(text_box "RGX Data PCB"
 		(exclude_from_sim no)
-		(at 241.3 203.2 0)
+		(at 318.77 46.99 0)
+		(size 69.85 31.75)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 4 4)
 			)
+			(justify left top)
 		)
-		(uuid "3975ef6a-0080-493e-aaa3-f00418b0eb86")
+		(uuid "955f9863-0827-4199-94d7-0bbd200372d2")
 	)
-	(text "Antenna"
+	(text_box "Magnetic POGO Pin Connector"
 		(exclude_from_sim no)
-		(at 392.43 105.41 0)
+		(at 246.38 313.69 0)
+		(size 83.82 36.83)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 4 4)
 			)
+			(justify left top)
 		)
-		(uuid "621aaf96-f962-44eb-b499-5263f2e9f5f3")
+		(uuid "ca9f5b14-e0ec-40ff-ac65-77d55caf0756")
 	)
-	(text "EPS 2"
+	(text_box "VTX (Video Transmitter)"
 		(exclude_from_sim no)
-		(at 372.11 274.32 0)
+		(at 232.41 101.6 0)
+		(size 113.03 33.02)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 4 4)
 			)
+			(justify left top)
 		)
-		(uuid "6c2a576c-317f-4062-8d0b-ec5063443256")
+		(uuid "caed1122-61cc-4801-af1c-ad2f99335fef")
 	)
-	(text "Payload Bay"
+	(text_box "Camera Breakout PCB"
 		(exclude_from_sim no)
-		(at 48.006 42.164 0)
+		(at 232.41 149.86 0)
+		(size 113.03 31.75)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 4 4)
 			)
+			(justify left top)
 		)
-		(uuid "77ad241c-62fd-4a60-8f87-7ec542f11cdf")
-	)
-	(text "VTX (Video Transmitter)"
-		(exclude_from_sim no)
-		(at 245.11 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a73056a4-8840-43b0-b05f-9e3f79dfbc2a")
-	)
-	(text "Camera Breakout PCB"
-		(exclude_from_sim no)
-		(at 243.84 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bc4b7da7-bb57-4b42-b046-5ed68696ac22")
-	)
-	(text "RGX Sensors"
-		(exclude_from_sim no)
-		(at 151.892 46.482 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c6f8dcbc-a59d-4a12-8fee-96f6acaa1a0c")
-	)
-	(text "Magnetic POGO Pin Connector"
-		(exclude_from_sim no)
-		(at 261.62 316.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c9a143a3-5757-4a60-83c3-df91c73d9106")
-	)
-	(text "Avionics"
-		(exclude_from_sim no)
-		(at 252.476 369.062 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fee404c0-6abe-4ff2-8b62-5948bed12e2f")
+		(uuid "f9f99302-d569-4e50-9d0e-d053f6e6287b")
 	)
 	(sheet_instances
 		(path "/"
