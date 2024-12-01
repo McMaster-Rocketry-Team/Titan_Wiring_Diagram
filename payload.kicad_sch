@@ -453,6 +453,26 @@
 		)
 		(uuid fecd57a3-578a-4503-a4fd-fab9c02a5f7a)
 	)
+	(text_box "Recovery Beacon"
+		(exclude_from_sim no)
+		(at 129.54 193.04 0)
+		(size 76.2 46.99)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Barlow")
+				(size 0.1016 0.1016)
+			)
+			(justify left top)
+		)
+		(uuid "616bec3d-c67f-4492-845f-20940616a62a")
+	)
 	(text "EPS 1"
 		(exclude_from_sim no)
 		(at 157.988 270.002 0)
