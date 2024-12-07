@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "89b9b4e5-7f06-4749-8df6-9e6327de0a97")
-	(paper "A2")
+	(paper "A1" portrait)
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 307.34 292.1) (xy 368.3 292.1)
+			(xy 313.69 448.31) (xy 368.3 448.31)
 		)
 		(stroke
 			(width 0)
@@ -72,7 +72,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 313.69) (xy 280.67 278.13)
+			(xy 287.02 469.9) (xy 287.02 434.34)
 		)
 		(stroke
 			(width 0)
@@ -83,7 +83,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 278.13) (xy 368.3 278.13)
+			(xy 300.99 434.34) (xy 368.3 434.34)
 		)
 		(stroke
 			(width 0)
@@ -116,7 +116,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 278.13) (xy 231.14 278.13)
+			(xy 287.02 434.34) (xy 231.14 434.34)
 		)
 		(stroke
 			(width 0)
@@ -193,7 +193,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 313.69) (xy 307.34 292.1)
+			(xy 313.69 469.9) (xy 313.69 448.31)
 		)
 		(stroke
 			(width 0)
@@ -225,7 +225,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 313.69) (xy 267.97 290.83)
+			(xy 274.32 469.9) (xy 274.32 447.04)
 		)
 		(stroke
 			(width 0)
@@ -235,7 +235,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 350.52) (xy 280.67 367.03)
+			(xy 287.02 506.73) (xy 287.02 523.24)
 		)
 		(stroke
 			(width 0)
@@ -268,7 +268,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 313.69) (xy 294.64 278.13)
+			(xy 300.99 469.9) (xy 300.99 434.34)
 		)
 		(stroke
 			(width 0)
@@ -279,7 +279,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 290.83) (xy 231.14 290.83)
+			(xy 274.32 447.04) (xy 231.14 447.04)
 		)
 		(stroke
 			(width 0)
@@ -289,7 +289,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 350.52) (xy 300.99 367.03)
+			(xy 307.34 506.73) (xy 307.34 523.24)
 		)
 		(stroke
 			(width 0)
@@ -322,9 +322,9 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "04200d97-5197-45c0-97b6-5687b9597b00")
 	)
@@ -341,9 +341,9 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "1db4eb80-0c2e-41fc-bc0f-5995c3920f4d")
 	)
@@ -360,15 +360,15 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "34fb5759-00ba-4dde-9eba-4dc353deaa67")
 	)
 	(text_box "Avionics"
 		(exclude_from_sim no)
-		(at 247.65 367.03 0)
+		(at 254 523.24 0)
 		(size 85.09 34.29)
 		(stroke
 			(width 1)
@@ -379,9 +379,9 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "458dc529-d288-44e8-8753-877bbc2e6749")
 	)
@@ -399,16 +399,15 @@
 		(effects
 			(font
 				(face "Barlow")
-				(size 4 4)
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "616bec3d-c67f-4492-845f-20940616a62a")
 	)
 	(text_box "Payload Bay"
 		(exclude_from_sim no)
 		(at 31.75 41.91 0)
-		(size 511.81 266.7)
+		(size 511.81 377.19)
 		(stroke
 			(width 1)
 			(type dash)
@@ -418,7 +417,8 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
 			(justify left top)
 		)
@@ -437,9 +437,9 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "7ff788b0-0dfe-4d5d-92e3-618bde116b40")
 	)
@@ -456,9 +456,9 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "8d50d01d-5898-46f0-8773-d1475475eced")
 	)
@@ -475,16 +475,16 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "955f9863-0827-4199-94d7-0bbd200372d2")
 	)
-	(text_box "Magnetic POGO Pin Connector"
+	(text_box "Molex Nanofit 2-pin"
 		(exclude_from_sim no)
-		(at 246.38 313.69 0)
-		(size 83.82 36.83)
+		(at 158.75 298.45 0)
+		(size 21.59 6.35)
 		(stroke
 			(width 1)
 			(type default)
@@ -494,9 +494,28 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 1.27 1.27)
 			)
-			(justify left top)
+		)
+		(uuid "aa38bb84-b689-4b52-b6dc-8188531942f9")
+	)
+	(text_box "Magnetic POGO Pin Connector"
+		(exclude_from_sim no)
+		(at 252.73 469.9 0)
+		(size 83.82 39.37)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Barlow")
+				(size 7 7)
+			)
 		)
 		(uuid "ca9f5b14-e0ec-40ff-ac65-77d55caf0756")
 	)
@@ -513,9 +532,9 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "caed1122-61cc-4801-af1c-ad2f99335fef")
 	)
@@ -532,9 +551,9 @@
 		)
 		(effects
 			(font
-				(size 4 4)
+				(face "Barlow")
+				(size 7 7)
 			)
-			(justify left top)
 		)
 		(uuid "f9f99302-d569-4e50-9d0e-d053f6e6287b")
 	)
