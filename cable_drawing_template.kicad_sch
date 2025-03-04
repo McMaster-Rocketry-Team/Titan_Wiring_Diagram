@@ -1547,6 +1547,19 @@
 		)
 		(uuid 69ca0869-6ca6-40cf-b025-27e4a40ea56d)
 	)
+	(rectangle
+		(start 113.665 94.615)
+		(end 127.635 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 9aea4efd-a17d-4f42-85f7-02e48c53552e)
+	)
 	(circle
 		(center 154.94 103.886)
 		(radius 1.7961)
@@ -1584,6 +1597,28 @@
 			(type none)
 		)
 		(uuid d79c787e-54e4-44e7-b8ec-5a30f0f5a31e)
+	)
+	(text_box "ESP32 JX"
+		(exclude_from_sim no)
+		(at 74.93 93.98 0)
+		(size 15.875 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "25df99de-4c4f-4921-9d21-9c7196c637cf")
 	)
 	(text "Quantity"
 		(exclude_from_sim no)
