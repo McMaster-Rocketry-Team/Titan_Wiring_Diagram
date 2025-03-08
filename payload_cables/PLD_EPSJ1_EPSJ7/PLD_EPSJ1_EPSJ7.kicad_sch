@@ -1,0 +1,2002 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5447c284-a619-4df2-babd-b60fee557fd6")
+	(paper "A4")
+	(title_block
+		(title "BEACON_GND/BEACON_PWR")
+	)
+	(lib_symbols
+		(symbol "Molex_Nano_Fit_2x1_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -6.35 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_Nano_Fit_2x1_1_0_1"
+				(polyline
+					(pts
+						(xy 8.89 10.16) (xy 8.89 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 8.89) (xy 6.35 8.89) (xy 6.35 -2.54) (xy 5.08 -7.62) (xy 3.81 -7.62) (xy 3.81 -15.24)
+						(xy 1.27 -15.24) (xy 1.27 -12.7) (xy 1.27 -12.7) (xy 1.27 -15.24) (xy -1.27 -15.24) (xy -1.27 -7.62)
+						(xy -2.54 -7.62) (xy -3.81 -2.54) (xy -3.81 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+			)
+			(symbol "Molex_Nano_Fit_2x1_1_1_1"
+				(pin input line
+					(at 0 11.43 270)
+					(length 2.54)
+					(name "Power"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 11.43 270)
+					(length 2.54)
+					(name "Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "connectors:Molex_Nano_Fit_2x1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -6.35 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_Nano_Fit_2x1_0_1"
+				(polyline
+					(pts
+						(xy 8.89 10.16) (xy 8.89 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 8.89) (xy 6.35 8.89) (xy 6.35 -2.54) (xy 5.08 -7.62) (xy 3.81 -7.62) (xy 3.81 -15.24)
+						(xy 1.27 -15.24) (xy 1.27 -12.7) (xy 1.27 -12.7) (xy 1.27 -15.24) (xy -1.27 -15.24) (xy -1.27 -7.62)
+						(xy -2.54 -7.62) (xy -3.81 -2.54) (xy -3.81 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+			)
+			(symbol "Molex_Nano_Fit_2x1_1_1"
+				(pin input line
+					(at 0 11.43 270)
+					(length 2.54)
+					(name "Power"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 11.43 270)
+					(length 2.54)
+					(name "Ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "connectors:Twisted_Cable"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 73.66 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at 73.66 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Twisted_Cable_0_1"
+				(arc
+					(start -8.8899 -1.2701)
+					(mid -7.9919 -0.8981)
+					(end -7.6199 -0.0001)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 0)
+					(mid -7.992 0.898)
+					(end -8.89 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 0)
+					(mid -5.08 -1.0521)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -5.08 1.0521)
+					(end -7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid 0 -1.0521)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -1.27) (xy -11.43 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -1.27) (xy -8.89 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 1.27) (xy -11.43 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 156.21 -1.27) (xy 158.75 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 156.21 1.27) (xy 158.75 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0 1.27)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 0 1.0521)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 2.54 0)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 5.08 -1.0521)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 5.08 1.0521)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 7.62 0)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 10.16 -1.0521)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 10.16 1.0521)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 15.24 -1.0521)
+					(end 17.78 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 17.78 0)
+					(mid 15.24 1.0521)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 17.78 0)
+					(mid 17.78 0)
+					(end 17.78 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 17.78 0)
+					(mid 20.32 -1.0521)
+					(end 22.86 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 0)
+					(mid 20.32 1.0521)
+					(end 17.78 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 0)
+					(mid 25.4 -1.0521)
+					(end 27.94 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 27.94 0)
+					(mid 25.4 1.0521)
+					(end 22.86 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 27.94 0)
+					(mid 27.94 0)
+					(end 27.94 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 27.94 0)
+					(mid 30.48 -1.0521)
+					(end 33.02 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 33.02 0)
+					(mid 30.48 1.0521)
+					(end 27.94 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 33.02 0)
+					(mid 35.56 -1.0521)
+					(end 38.1 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 38.1 0)
+					(mid 35.56 1.0521)
+					(end 33.02 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 38.1 0)
+					(mid 38.1 0)
+					(end 38.1 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 38.1 0)
+					(mid 40.64 -1.0521)
+					(end 43.18 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 43.18 0)
+					(mid 40.64 1.0521)
+					(end 38.1 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 43.18 0)
+					(mid 45.72 -1.0521)
+					(end 48.26 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 48.26 0)
+					(mid 45.72 1.0521)
+					(end 43.18 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 48.26 0)
+					(mid 48.26 0)
+					(end 48.26 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 48.26 0)
+					(mid 50.8 -1.0521)
+					(end 53.34 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 53.34 0)
+					(mid 50.8 1.0521)
+					(end 48.26 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 53.34 0)
+					(mid 55.88 -1.0521)
+					(end 58.42 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 58.42 0)
+					(mid 55.88 1.0521)
+					(end 53.34 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 58.42 0)
+					(mid 58.42 0)
+					(end 58.42 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 58.42 0)
+					(mid 60.96 -1.0521)
+					(end 63.5 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 63.5 0)
+					(mid 60.96 1.0521)
+					(end 58.42 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 63.5 0)
+					(mid 66.04 -1.0521)
+					(end 68.58 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 68.58 0)
+					(mid 66.04 1.0521)
+					(end 63.5 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 68.58 0)
+					(mid 68.58 0)
+					(end 68.58 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 68.58 0)
+					(mid 71.12 -1.0521)
+					(end 73.66 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 73.66 0)
+					(mid 71.12 1.0521)
+					(end 68.58 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 73.66 0)
+					(mid 76.2 -1.0521)
+					(end 78.74 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 78.74 0)
+					(mid 76.2 1.0521)
+					(end 73.66 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 78.74 0)
+					(mid 78.74 0)
+					(end 78.74 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 78.74 0)
+					(mid 81.28 -1.0521)
+					(end 83.82 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 83.82 0)
+					(mid 81.28 1.0521)
+					(end 78.74 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 83.82 0)
+					(mid 86.36 -1.0521)
+					(end 88.9 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 88.9 0)
+					(mid 86.36 1.0521)
+					(end 83.82 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 88.9 0)
+					(mid 88.9 0)
+					(end 88.9 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 88.9 0)
+					(mid 91.44 -1.0521)
+					(end 93.98 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 93.98 0)
+					(mid 91.44 1.0521)
+					(end 88.9 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 93.98 0)
+					(mid 96.52 -1.0521)
+					(end 99.06 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 99.06 0)
+					(mid 96.52 1.0521)
+					(end 93.98 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 99.06 0)
+					(mid 99.06 0)
+					(end 99.06 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 99.06 0)
+					(mid 101.6 -1.0521)
+					(end 104.14 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 104.14 0)
+					(mid 101.6 1.0521)
+					(end 99.06 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 104.14 0)
+					(mid 106.68 -1.0521)
+					(end 109.22 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 109.22 0)
+					(mid 106.68 1.0521)
+					(end 104.14 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 109.22 0)
+					(mid 109.22 0)
+					(end 109.22 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 109.22 0)
+					(mid 111.76 -1.0521)
+					(end 114.3 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 114.3 0)
+					(mid 111.76 1.0521)
+					(end 109.22 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 114.3 0)
+					(mid 116.84 -1.0521)
+					(end 119.38 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 119.38 0)
+					(mid 116.84 1.0521)
+					(end 114.3 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 119.38 0)
+					(mid 119.38 0)
+					(end 119.38 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 119.38 0)
+					(mid 121.92 -1.0521)
+					(end 124.46 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 124.46 0)
+					(mid 121.92 1.0521)
+					(end 119.38 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 124.46 0)
+					(mid 127 -1.0521)
+					(end 129.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 129.54 0)
+					(mid 127 1.0521)
+					(end 124.46 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 129.54 0)
+					(mid 129.54 0)
+					(end 129.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 129.54 0)
+					(mid 132.08 -1.0521)
+					(end 134.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 134.62 0)
+					(mid 132.08 1.0521)
+					(end 129.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 134.62 0)
+					(mid 137.16 -1.0521)
+					(end 139.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 139.7 0)
+					(mid 137.16 1.0521)
+					(end 134.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 139.7 0)
+					(mid 139.7 0)
+					(end 139.7 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 139.7 0)
+					(mid 142.24 -1.0521)
+					(end 144.78 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 144.78 0)
+					(mid 142.24 1.0521)
+					(end 139.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 144.78 0)
+					(mid 147.32 -1.0521)
+					(end 149.86 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 149.86 0)
+					(mid 147.32 1.0521)
+					(end 144.78 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 149.86 0)
+					(mid 149.86 0)
+					(end 149.86 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 149.86 0)
+					(mid 152.4 -1.0521)
+					(end 154.94 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 154.94 0)
+					(mid 152.4 1.0521)
+					(end 149.86 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 154.94 0)
+					(mid 155.312 -0.898)
+					(end 156.21 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 156.21 1.27)
+					(mid 155.312 0.898)
+					(end 154.94 0)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 99.06 161.29) (xy 99.06 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b976a8-0cbc-491a-89b2-ae3d9d75005e")
+	)
+	(wire
+		(pts
+			(xy 21.59 172.72) (xy 115.57 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610cd68a-7b59-4260-b1b1-52cb6c3b65c9")
+	)
+	(polyline
+		(pts
+			(xy 119.38 116.84) (xy 120.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afb23c7-5041-4db2-9a26-815b8fc1d590")
+	)
+	(polyline
+		(pts
+			(xy 49.53 113.03) (xy 49.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725978ef-f2e8-423d-849d-08838fdd31a0")
+	)
+	(polyline
+		(pts
+			(xy 223.52 113.03) (xy 223.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a39713-bb1f-4b50-b4c6-17e69a8cd015")
+	)
+	(polyline
+		(pts
+			(xy 49.53 116.84) (xy 223.52 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d4b4a5-bbae-4153-a947-3160254cd49d")
+	)
+	(polyline
+		(pts
+			(xy 67.31 98.806) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861636eb-e17c-453c-a3de-ae273fdb0a6c")
+	)
+	(wire
+		(pts
+			(xy 45.72 161.29) (xy 45.72 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1cdb25-9e67-46f3-a12f-1e6861377bbf")
+	)
+	(polyline
+		(pts
+			(xy 204.47 98.806) (xy 204.47 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40fe4a0-e4e8-4778-bef4-aadebc003ac5")
+	)
+	(rectangle
+		(start 20.32 160.02)
+		(end 116.84 191.77)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 290def95-def8-41ee-af3c-fcb027173155)
+	)
+	(rectangle
+		(start 195.58 102.87)
+		(end 212.09 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid 29443f9f-fdd2-44b4-93d6-33cfeffc42a4)
+	)
+	(circle
+		(center 33.02 185.42)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4cbdcedb-cee3-47e3-97aa-98204de093d3)
+	)
+	(circle
+		(center 41.91 114.046)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5fc9237a-c627-4087-8522-56d3a0784122)
+	)
+	(circle
+		(center 139.7 112.776)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 74bca387-98b9-45d2-91b0-7e88cd28b345)
+	)
+	(circle
+		(center 232.41 114.3)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a0b27439-1fb8-4ebb-a9fa-eff5c46c7453)
+	)
+	(rectangle
+		(start 59.69 102.87)
+		(end 76.2 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid e353ffc1-b0af-4a9c-99fb-e1d7062c40ad)
+	)
+	(circle
+		(center 33.02 177.8)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f2ebc402-bf54-42ac-829b-f7619333b51d)
+	)
+	(text "26AWG Silicone Insulation"
+		(exclude_from_sim no)
+		(at 72.644 185.42 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "18a7d69f-f997-4a77-814e-5deba912d92b")
+	)
+	(text "Topologic Ref."
+		(exclude_from_sim no)
+		(at 33.782 169.926 0)
+		(effects
+			(font
+				(face "Barlow")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1c4b8bf7-50b6-42a4-850d-10db1801476b")
+	)
+	(text "A2\n"
+		(exclude_from_sim no)
+		(at 139.7 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 132 1)
+			)
+		)
+		(uuid "1d779388-94f5-4193-8f3b-3a2311287748")
+	)
+	(text "52.393 mm"
+		(exclude_from_sim no)
+		(at 140.716 120.396 0)
+		(effects
+			(font
+				(face "Barlow")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "46e26e35-cbac-4e70-a0bd-38f5e3276002")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 107.95 178.054 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "46f573aa-0616-42c1-888d-4f55e4ba9ceb")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 107.95 185.166 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4ceb0523-42b3-4773-8415-bfa8b8fbe9fb")
+	)
+	(text "Molex Nano Fit 2x1"
+		(exclude_from_sim no)
+		(at 66.548 177.8 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "60d95bb5-c578-4f51-8936-4d11567bd6eb")
+	)
+	(text "Quantity"
+		(exclude_from_sim no)
+		(at 107.442 169.672 0)
+		(effects
+			(font
+				(face "Barlow")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "651788fd-594c-42aa-ae4b-3318c5a19644")
+	)
+	(text "A2\n"
+		(exclude_from_sim no)
+		(at 33.02 185.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 132 1)
+			)
+		)
+		(uuid "76b363dd-a803-4a5a-8b36-dc135b1eec26")
+	)
+	(text "EPS_J7"
+		(exclude_from_sim no)
+		(at 204.47 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3ea8cda-7b1e-4b5c-b59e-f543720d3a9d")
+	)
+	(text "EPS_J1"
+		(exclude_from_sim no)
+		(at 67.31 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bafad9e3-1fc8-47c0-b8c4-cb8f45359196")
+	)
+	(text "Description"
+		(exclude_from_sim no)
+		(at 56.134 169.672 0)
+		(effects
+			(font
+				(face "Barlow")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c6562fb0-9463-4e8e-b505-9a46a7cc614f")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 33.02 178.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 132 1)
+			)
+		)
+		(uuid "c850c3f5-ba32-4425-b34e-41271ad4647b")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 41.91 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 132 1)
+			)
+		)
+		(uuid "e8d88bd2-1a7c-4688-8950-1d56ff4929b6")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 232.41 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 132 1)
+			)
+		)
+		(uuid "f4749d28-2b55-4002-b8fa-0a2099135e4b")
+	)
+	(symbol
+		(lib_id "connectors:Molex_Nano_Fit_2x1")
+		(at 232.41 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9372b54-0a9a-4938-97b5-feac9e6c0314")
+		(property "Reference" "P2"
+			(at 231.14 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 248.92 105.4735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d1ddb09-7989-469a-9d39-a3b06c535ad5")
+		)
+		(pin "1"
+			(uuid "741f9600-4745-4b72-aee5-e1a1175b7f7b")
+		)
+		(instances
+			(project "PLD_EPSJ1_EPSJ7"
+				(path "/5447c284-a619-4df2-babd-b60fee557fd6"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Molex_Nano_Fit_2x1_1")
+		(lib_id "connectors:Molex_Nano_Fit_2x1")
+		(at 40.64 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca39ce0a-e84f-426b-bc20-c71c9ee52e18")
+		(property "Reference" "P1"
+			(at 40.64 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 38.0365 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "856708a6-06b8-4fb0-a7ff-a3cc4882799f")
+		)
+		(pin "1"
+			(uuid "7e3b4301-3cfe-478c-ade0-982c22b36c74")
+		)
+		(instances
+			(project "PLD_EPSJ1_EPSJ7"
+				(path "/5447c284-a619-4df2-babd-b60fee557fd6"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "connectors:Twisted_Cable")
+		(at 62.23 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf91b150-1ac4-4e6b-bf96-b1adc59ba054")
+		(property "Reference" "U1"
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PLD_EPSJ1_EPSJ7"
+				(path "/5447c284-a619-4df2-babd-b60fee557fd6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
