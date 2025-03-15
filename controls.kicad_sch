@@ -597,7 +597,7 @@
 		(stroke
 			(width 0.381)
 			(type default)
-			(color 132 132 132 1)
+			(color 194 0 0 1)
 		)
 		(uuid "1a748394-aeee-4534-b256-bf0f9975fd5b")
 	)
@@ -784,7 +784,7 @@
 		(stroke
 			(width 0.381)
 			(type default)
-			(color 132 132 132 1)
+			(color 194 0 0 1)
 		)
 		(uuid "2ea27bdf-44d5-4965-9e6f-ee6b2c859b94")
 	)
@@ -1367,7 +1367,7 @@
 		(stroke
 			(width 0.381)
 			(type default)
-			(color 132 132 132 1)
+			(color 194 0 0 1)
 		)
 		(uuid "5e296d44-b833-4944-a47e-fed0476b18ec")
 	)
@@ -1873,7 +1873,7 @@
 		(stroke
 			(width 0.381)
 			(type default)
-			(color 132 132 132 1)
+			(color 194 0 0 1)
 		)
 		(uuid "7c74a132-24a7-44db-af7f-7a4744294118")
 	)
@@ -3391,7 +3391,7 @@
 		(stroke
 			(width 0.381)
 			(type default)
-			(color 132 132 132 1)
+			(color 194 0 0 1)
 		)
 		(uuid "fc6a4d7c-5fda-41b6-9d38-373556580315")
 	)
@@ -4533,6 +4533,27 @@
 			(justify right)
 		)
 		(uuid "07ab194e-17ac-435d-8443-ac07aeb0007b")
+	)
+	(text_box "FW_PWR Note:\nBecause Featherweight uses screw terminal, red wire is used to indicate positive voltage."
+		(exclude_from_sim no)
+		(at 369.57 572.77 0)
+		(size 62.23 19.05)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Barlow")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0e31a2c7-42f6-4d7b-bfaf-29d44699e828")
 	)
 	(text_box "CAN BUS"
 		(exclude_from_sim no)
