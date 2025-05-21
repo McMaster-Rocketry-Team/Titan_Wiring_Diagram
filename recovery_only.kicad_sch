@@ -3789,7 +3789,6 @@
 	)
 	(label "DROGUE"
 		(at 176.53 106.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3800,7 +3799,6 @@
 	)
 	(label "APO"
 		(at 374.65 133.35 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3811,7 +3809,6 @@
 	)
 	(label "GND"
 		(at 161.29 250.19 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3822,7 +3819,6 @@
 	)
 	(label "MAIN"
 		(at 369.57 133.35 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3833,7 +3829,6 @@
 	)
 	(label "VCC"
 		(at 172.72 106.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3844,7 +3839,6 @@
 	)
 	(label "APO"
 		(at 340.36 162.56 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3855,7 +3849,6 @@
 	)
 	(label "MAIN"
 		(at 184.15 106.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3866,7 +3859,6 @@
 	)
 	(label "VCC"
 		(at 335.28 162.56 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3877,7 +3869,6 @@
 	)
 	(label "VCC"
 		(at 379.73 167.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3888,7 +3879,6 @@
 	)
 	(label "APO"
 		(at 374.65 167.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3899,7 +3889,6 @@
 	)
 	(label "VCC"
 		(at 264.16 167.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3910,7 +3899,6 @@
 	)
 	(label "MAIN"
 		(at 345.44 162.56 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3921,7 +3909,6 @@
 	)
 	(label "VCC"
 		(at 379.73 133.35 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3932,7 +3919,6 @@
 	)
 	(label "VCC"
 		(at 180.34 106.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3943,7 +3929,6 @@
 	)
 	(label "GND"
 		(at 384.81 133.35 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3954,7 +3939,6 @@
 	)
 	(label "MAIN"
 		(at 369.57 167.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3965,7 +3949,6 @@
 	)
 	(label "GND"
 		(at 255.27 167.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3976,7 +3959,6 @@
 	)
 	(label "VCC"
 		(at 330.2 162.56 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3987,7 +3969,6 @@
 	)
 	(label "VCC"
 		(at 166.37 250.19 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3998,7 +3979,6 @@
 	)
 	(label "GND"
 		(at 384.81 167.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
